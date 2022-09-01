@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">X O X</string>
+    <string name="tek_oyuncu">Tek Oyuncu</string>
+    <string name="iki_oyuncu">İki Oyuncu</string>
+    <string name="kolay">Kolay</string>
+    <string name="normal">Normal</string>
+    <string name="zor">Zor</string>
+    <string name="tre"> - </string>
+    <string name="geri">Geri</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="kazandiniz">Kazandınız!</string>
+    <string name="kaybettiniz">Kaybettiniz!</string>
+    <string name="kazanan_x">X kazandı!</string>
+    <string name="kazanan_o">O kazandı!</string>
+    <string name="tekrar_oyna">Tekrar Oyna</string>
+    <string name="berabere">Berabere</string>
+</resources>

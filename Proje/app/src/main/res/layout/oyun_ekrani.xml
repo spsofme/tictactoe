@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/arka_plan">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_tekrar"
+        android:textSize="25sp"
+        style="@android:style/Widget.Holo.Button"
+        android:visibility="invisible"
+        android:layout_alignParentTop="true"
+        android:text="@string/tekrar_oyna" />
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <Button
+            android:id="@+id/btn_1_1"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text=""
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/btn_1_2"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text=""
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/btn_1_3"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text=""
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn_2_1"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text=""
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/btn_2_2"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text=""
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/btn_2_3"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text=""
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/btn_3_1"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text=""
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/btn_3_2"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text=""
+            android:textSize="40sp" />
+        <Button
+            android:id="@+id/btn_3_3"
+            style="@android:style/Widget.Holo.Button"
+            android:layout_width="100sp"
+            android:layout_height="100sp"
+            android:text=""
+            android:textSize="40sp" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/btn_geri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_alignParentBottom="true"
+        android:text="@string/geri"
+        android:textSize="25sp" />
+
+</RelativeLayout>
